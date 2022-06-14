@@ -1,0 +1,56 @@
+.banner
+{
+    height: 500px;
+    position: relative;
+    width: 100%;
+}
+
+.banner img
+{
+    width: 100%;
+}
+
+h1
+{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    text-align: center;
+    background-color: transparent;
+    color: white;
+}
+
+.content
+{
+    height: 450px;
+    padding-top: 130px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.content::before
+{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    top: -50px;
+    left: 0;
+    transform: skewY(10deg);
+    background-color: black;
+}
+
+.content::after
+{
+    position: absolute;
+    content: '';
+    width: 60%;
+    height: 125px;
+    top: -50px;
+    right: 0;
+    transform: skewY(-10deg);
+    background-color: black;
+}
