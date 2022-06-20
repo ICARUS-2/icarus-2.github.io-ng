@@ -1,10 +1,26 @@
 *
 {
-    background-color: white;
+    background-color: rgb(20,20,20);
     margin: 0;
     padding: 0%;
     box-sizing: border-box;
-    color: black
+    color: white
 }
 html, body { height: 100%; overflow-x: hidden;}
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
+
+.thinHeader
+{
+    font-weight: 300;
+}
+
+.descriptionParagraph
+{
+    color: lightgray;
+    font-size: 18px;
+}
+
+.colorBlue
+{
+    color: #13b8e6;
+}

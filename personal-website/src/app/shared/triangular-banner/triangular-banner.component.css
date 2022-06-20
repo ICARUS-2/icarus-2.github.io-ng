@@ -40,7 +40,7 @@ h1
     top: -50px;
     left: 0;
     transform: skewY(7deg);
-    background-color: white;
+    background-color: rgb(20,20,20);;
 }
 
 .content::after
@@ -52,7 +52,7 @@ h1
     top: -50px;
     right: 0;
     transform: skewY(-7deg);
-    background-color: white;
+    background-color: rgb(20,20,20);;
 }
 
 @media screen and (max-width: 760px)

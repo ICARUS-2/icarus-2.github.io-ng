@@ -1,0 +1,15 @@
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @media screen and (max-width: 768px) {
+    .parallax
+    {
+      background-size: contain;
+      background-attachment: unset;
+      min-height: 200px !important;
+    }
+  }
