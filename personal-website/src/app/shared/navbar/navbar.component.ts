@@ -10,7 +10,6 @@ import { Observable } from 'rxjs';
 export class NavbarComponent implements OnInit {
 
   constructor() {
-    let arr = new Observable();
    }
 
   ngOnInit(): void {
