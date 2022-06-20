@@ -12,13 +12,12 @@
         <span class="navbar-toggler-icon"></span>
     </button>
 
-
     <div class="collapse navbar-collapse" id="toggleMobileMenu">
         <ul class="navbar-nav ms-auto text-end">
-            <li><a href="#" class="nav-link active">Home</a></li>
-            <li><a href="#" class="nav-link">Projects</a></li>
-            <li><a href="#" class="nav-link">GitHub</a></li>
-            <li><a href="#" class="nav-link">Contact</a></li>
+            <li><a routerLink="/" class="nav-link" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}">Home</a></li>
+            <li><a routerLink="/projects" class="nav-link" routerLinkActive="active">Projects</a></li>
+            <li><a href="https://github.com/ICARUS-2" class="nav-link" >GitHub</a></li>
+            <li><a routerLink="/contact" class="nav-link" routerLinkActive="active">Contact</a></li>
         </ul>
     </div>
 </nav>

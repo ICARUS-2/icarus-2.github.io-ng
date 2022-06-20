@@ -9,6 +9,9 @@ import { HomepageComponent } from './home/homepage/homepage.component';
 import { ParallaxComponent } from './shared/parallax/parallax.component';
 import { ListItemComponent } from './shared/list-item/list-item.component';
 import { ListItemPairComponent } from './shared/list-item-pair/list-item-pair.component';
+import { ProjectsPageComponent } from './projects/projects-page/projects-page.component';
+import { ContactPageComponent } from './contact/contact-page/contact-page.component';
+import { MainButtonComponent } from './shared/main-button/main-button.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +21,10 @@ import { ListItemPairComponent } from './shared/list-item-pair/list-item-pair.co
     HomepageComponent,
     ParallaxComponent,
     ListItemComponent,
-    ListItemPairComponent
+    ListItemPairComponent,
+    ProjectsPageComponent,
+    ContactPageComponent,
+    MainButtonComponent
   ],
   imports: [
     BrowserModule,
