@@ -7,6 +7,8 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { TriangularBannerComponent } from './shared/triangular-banner/triangular-banner.component';
 import { HomepageComponent } from './home/homepage/homepage.component';
 import { ParallaxComponent } from './shared/parallax/parallax.component';
+import { ListItemComponent } from './shared/list-item/list-item.component';
+import { ListItemPairComponent } from './shared/list-item-pair/list-item-pair.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { ParallaxComponent } from './shared/parallax/parallax.component';
     NavbarComponent,
     TriangularBannerComponent,
     HomepageComponent,
-    ParallaxComponent
+    ParallaxComponent,
+    ListItemComponent,
+    ListItemPairComponent
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,9 @@
 <app-triangular-banner imgSrc="../../assets/img/home/view2.webp" headerText="Ethan Briffett - Software Developer"></app-triangular-banner>
 
 <div class="container" style="max-width: 80%;">
-    <h1 class="thinHeader m-4">About <span class="colorBlue">Me</span></h1>
-    <div style="display: flex; justify-content: space-between; width: 100%;">
-        <div class="m-4" style="width: 50%;">
+    <h1 class="thinHeader">About <span class="colorBlue">Me</span></h1>
+    <div style="display: flex; justify-content: space-between; width: 100%;" class="mainDescriptionParagraphs">
+        <div style="width: 50%; padding-right: 10px;" class="leftSideParagraphs">
             <p class="descriptionParagraph">
                 Who am I? I am a computer enthusiast and software developer who will soon
                 be pursuing a Bachelor's of Computer Science at Concordia University.
@@ -15,12 +15,27 @@
             </p>
         </div>
 
-        <div class="m-4" style="width: 50%;">
-            <!--https://www.pexels.com/photo/abstract-business-code-coder-270348/-->
+        <div style="width: 50%; padding-left: 10px;" class="mainDescParallax">
             <app-parallax bgImg="url(../../../assets/img/home/code.webp)" height="200px"></app-parallax>
         </div>
-
-        <div style="margin-top: 1000px"></div>
-
     </div>
+
+    <a class="btn btn-outline-info btn-lg m-1">See my Projects</a>
+    <a class="btn btn-outline-info btn-lg m-1">Contact me</a>
+    
+    <div style="margin-top: 100px"></div>
+    
+    <h1 class="thinHeader">Technologies</h1>
+    <p class="descriptionParagraph">
+        Throughout the development of my projects, I have become familiar with the following technologies:
+    </p>
+
+    <app-list-item-pair item1="C#" item2="WPF"></app-list-item-pair>
+    <app-list-item-pair item1="ASP.NET MVC" item2="Xamarin.Forms"></app-list-item-pair>
+    <app-list-item-pair item1="SQL, Entity Framework" item2="HTML, CSS, JS, TS"></app-list-item-pair>
+    <app-list-item-pair item1="Node" item2="Angular"></app-list-item-pair>
+    <app-list-item-pair item1="Java" item2="Android Studio"></app-list-item-pair>
+    <app-list-item-pair item1="Bash/PowerShell" item2="Python"></app-list-item-pair>
+    
+    <div style="margin-top: 150px"></div>
 </div>
