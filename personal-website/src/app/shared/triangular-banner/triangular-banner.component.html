@@ -1,8 +1,8 @@
-<div class="banner" [style.background-image]="'linear-gradient(rgba(0, 0, 0, 0.1),rgba(0, 0, 0, 0.1)) , url('+imgSrc+')'">
-    <h1 style="padding: 20px; background-image: linear-gradient(rgba(0, 0, 0, 0.9),rgba(0, 0, 0, 0.9)); border-radius: 20px; ">{{headerText}}</h1>
-    <p id="descParagraph">{{descriptionText}}</p>
-</div>
-
-<div class="content">
-
+<div style="max-height: 550px; overflow-y:hidden" class="bannerOuter">
+    <div class="banner" style="z-index: 0;">
+        <h1>{{headerText}}</h1>
+        <img [src]="imgSrc" height="500px" class="bannerImg">
+    </div>
+    <div class="content">
+    </div>
 </div>
