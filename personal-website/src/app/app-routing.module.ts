@@ -7,7 +7,17 @@ import { ContactPageComponent } from './contact/contact-page/contact-page.compon
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   {path: 'projects', component: ProjectsPageComponent},
-  {path: 'contact', component: ContactPageComponent}
+  {path: 'contact', component: ContactPageComponent},
+
+  {path: '**', redirectTo: ""},
+
+  //redirect old site
+  {path: 'en', redirectTo: ""},
+  {path: 'fr', redirectTo: ""},
+  {path: 'en/contact', redirectTo: "contact"},
+  {path: 'fr/contact', redirectTo: "contact"},
+  {path: 'en/projects', redirectTo: "projects"},
+  {path: 'fr/projects', redirectTo: "projects"}
 ];
 
 @NgModule({
