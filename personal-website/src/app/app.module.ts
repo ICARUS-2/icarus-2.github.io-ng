@@ -12,6 +12,7 @@ import { ListItemPairComponent } from './shared/list-item-pair/list-item-pair.co
 import { ProjectsPageComponent } from './projects/projects-page/projects-page.component';
 import { ContactPageComponent } from './contact/contact-page/contact-page.component';
 import { MainButtonComponent } from './shared/main-button/main-button.component';
+import { ZoomCardLinkComponent } from './shared/zoom-card-link/zoom-card-link.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MainButtonComponent } from './shared/main-button/main-button.component'
     ListItemPairComponent,
     ProjectsPageComponent,
     ContactPageComponent,
-    MainButtonComponent
+    MainButtonComponent,
+    ZoomCardLinkComponent
   ],
   imports: [
     BrowserModule,
