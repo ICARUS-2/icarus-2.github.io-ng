@@ -7,6 +7,7 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ZoomCardLinkComponent implements OnInit {
 
+  @Input() routerLink: string = ""
   @Input() href: string = "";
   @Input() imgSrc: string = "";
   @Input() text: string="";
@@ -14,6 +15,8 @@ export class ZoomCardLinkComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    if (this.href != "" && this.routerLink != "")
+      throw new Error("Either href or routerLink can be set, but not both")
   }
 
 }

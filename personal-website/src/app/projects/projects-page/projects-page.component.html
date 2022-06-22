@@ -1,6 +1,7 @@
 <app-triangular-banner headerText="My Projects" imgSrc="../../../assets/img/projects/project-code.webp"></app-triangular-banner>
 
 <div class="container" style="max-width: 80%;">
+
     <h1 class="thinHeader">Sites & Web Apps</h1>
 
 
@@ -10,7 +11,19 @@
 
     <h1 class="thinHeader">Video Games</h1>
 
-    <app-zoom-card-link href="/" imgSrc='../../../assets/img/projects/wavedodger.webp' text="WaveDodger"></app-zoom-card-link>
+    <div class="row" style="width: 100% !important; display: flex; justify-content: center; align-items: center;">
+        <div class="col">
+            <app-zoom-card-link routerLink="#" imgSrc='../../../assets/img/projects/wavedodger.webp' text="WaveDodger"></app-zoom-card-link>
+        </div>
+
+        <div class="col">
+            <app-zoom-card-link class="col" routerLink="#" imgSrc='../../../assets/img/projects/wavedodger2.webp' text="WaveDodger II"></app-zoom-card-link>
+        </div>
+
+        <div class="col">
+            <app-zoom-card-link class="col" routerLink="#" imgSrc='../../../assets/img/projects/slimedodger.webp' text="WaveDodger III - SlimeDodger"></app-zoom-card-link>
+        </div>    
+    </div>
 
     <div class="m-5"></div>
 </div>
