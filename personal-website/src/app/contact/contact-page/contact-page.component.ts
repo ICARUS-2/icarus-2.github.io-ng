@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
+import TitleHelper from './../../../helpers/TitleHelper';
 
 @Component({
   selector: 'app-contact-page',
@@ -7,7 +9,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(private titleService: Title) {
+    titleService.setTitle(TitleHelper.concat("Contact"))
+   }
 
   ngOnInit(): void {
   }
