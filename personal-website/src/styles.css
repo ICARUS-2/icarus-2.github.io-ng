@@ -40,6 +40,16 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
     transform: scale(1.1); 
 }
 
+.unstyledLink
+{
+    background-color: transparent;
+}
+
+.unstyledLink:visited
+{
+    color: white;
+}
+
 app-root {
     display: block;
  }

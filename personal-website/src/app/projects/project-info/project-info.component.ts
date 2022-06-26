@@ -1,6 +1,8 @@
 import { ThisReceiver } from '@angular/compiler';
 import { Component, Input, OnInit } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
+import TitleHelper from 'src/helpers/TitleHelper';
 import  ProjectInfoModel from 'src/models/ProjectInfoModel';
 
 @Component({
@@ -17,7 +19,7 @@ export class ProjectInfoComponent implements OnInit {
   @Input() btnHref: string = ""
   @Input() btnRouterLink: string = ""
 
-  constructor(private route: ActivatedRoute) {
+  constructor(private route: ActivatedRoute, private titleService: Title) {
       
    }
 
@@ -32,6 +34,8 @@ export class ProjectInfoComponent implements OnInit {
         if (d["header"])
         {
           this.header = d["header"]
+
+          this.titleService.setTitle(TitleHelper.concat(this.header))
         }
 
         if (d["description"])

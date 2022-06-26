@@ -1,7 +1,7 @@
-<div class="projectInfoOuter" [style.background-image]=" 'url('+ backgroundImageSource + ')'" style="background-size: cover;width: 100%; height: 800px; display: flex; justify-content: center; align-items: center;">
+<div class="projectInfoOuter" [style.background-image]=" 'url('+ backgroundImageSource + ')'" style="background-size: cover;width: 100%; height: 650px; display: flex; justify-content: center; align-items: center;">
     <div class="shadow projectInfoInner" style="min-height: 400px; max-height: 700px; background-color: rgb(40,40,40); width: 70%; display: flex; flex-direction: column ;justify-content: center; padding: 40px; margin-left: 30%;">
         <h1 class="thinHeader colorBlue bg-transparent">{{header}}</h1>
-        <p class="bg-transparent">{{description}}</p>
+        <p class="bg-transparent" [innerHTML]="description"></p>
 
         <app-main-button class="bg-transparent" [text]="btnText" [href]="btnHref" [routerLink]="btnRouterLink"></app-main-button>
     </div>
