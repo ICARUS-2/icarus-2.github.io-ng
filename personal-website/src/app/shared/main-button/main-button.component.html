@@ -1,1 +1,2 @@
-<a class="btn btn-outline-info btn-lg m-1" [routerLink]="href">{{text}}</a>
+<a class="btn btn-outline-info btn-lg m-1" [href]="href" *ngIf="href != ''">{{text}}</a>
+<a class="btn btn-outline-info btn-lg m-1" [routerLink]="routerLink" *ngIf="routerLink != ''">{{text}}</a>
