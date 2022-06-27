@@ -1,21 +1,19 @@
 <app-triangular-banner imgSrc="../../assets/img/home/view2.webp" headerText="{{ 'home.bannerText' | translate }}"></app-triangular-banner>
 
 <div class="container" style="max-width: 80%;">
-    <h1 class="thinHeader">About <span class="colorBlue">Me</span></h1>
+    <h1 class="thinHeader" innerHTML="{{ 'home.aboutMeHeader' | translate }}"></h1>
     <div style="display: flex; justify-content: space-between; width: 100%;" class="mainDescriptionParagraphs">
         <div style="width: 50%; padding-right: 10px;" class="leftSideParagraphs">
             <p class="descriptionParagraph">
-                Who am I? I am a computer enthusiast and software developer who will soon
-                be pursuing a Bachelor's of Computer Science at Concordia University.
+                {{'home.aboutMeDescription' | translate}}
             </p>
 
             <p class="descriptionParagraph">
-                I am interested in a multitude of aspects within the field, such as app design,
-                databases, and web development. My aim is to improve the lives of the users I program for!
+                {{'home.aboutMeDescription2' | translate}}
             </p>
 
-            <app-main-button routerLink="/projects" text="See my projects!"></app-main-button>
-            <app-main-button routerLink="/contact" text="Work with me?"></app-main-button>
+            <app-main-button routerLink="/projects" text="{{'home.seeMyProjectsButton' | translate}}"></app-main-button>
+            <app-main-button routerLink="/contact" text="{{'home.workWithMeButton' | translate}}"></app-main-button>
         </div>
 
         <div style="margin-top: 50px"></div>
@@ -29,7 +27,7 @@
     
     <h1 class="thinHeader">Technologies</h1>
     <p class="descriptionParagraph">
-        Throughout the development of my projects, I have become familiar with the following technologies:
+        {{'home.technologiesDescription' | translate}}
     </p>
 
     <app-list-item-pair item1="C#" item2="WPF"></app-list-item-pair>
