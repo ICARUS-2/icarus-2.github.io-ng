@@ -40,3 +40,22 @@ nav, .navbar-collapse, .navbar-brand, .navbar-nav, .nav-link, .navbar-toggler, .
     background-color: #052432 !important;
     color: white
 }
+
+#langSelect
+{
+    height: 49px;
+    padding-top: 6px;
+}
+
+@media screen and (max-width: 760px)
+{
+    #langSelect
+    {
+        display: unset;
+    }
+
+    #langSelectListItem
+    {
+        background-color: #052432 !important;
+    }
+}

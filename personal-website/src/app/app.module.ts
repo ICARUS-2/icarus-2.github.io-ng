@@ -15,6 +15,14 @@ import { MainButtonComponent } from './shared/main-button/main-button.component'
 import { ZoomCardLinkComponent } from './shared/zoom-card-link/zoom-card-link.component';
 import { ProjectInfoComponent } from './projects/project-info/project-info.component';
 import { MainButtonHrefComponent } from './shared/main-button-href/main-button-href.component';
+import { TranslateModule, TranslateLoader } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+
+export function HttpLoaderFactory(http: HttpClient)
+{
+    return new TranslateHttpLoader(http)
+}
 
 @NgModule({
   declarations: [
@@ -34,7 +42,15 @@ import { MainButtonHrefComponent } from './shared/main-button-href/main-button-h
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient]
+      }
+    })
   ],
   providers: [
     Title
