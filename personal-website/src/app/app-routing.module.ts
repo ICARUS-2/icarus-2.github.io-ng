@@ -24,7 +24,7 @@ const routes: Routes = [
 
   //MoneroOcean Custom UI
   {path: "projects/moneroocean-custom-ui", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/projects/a.webp", //Background image
+    "../../../assets/img/projects/moneroocean-customui-full.webp", //Background image
     "MoneroOcean Custom UI",                                //
     "A customizable dashboard UI that allows MoneroOcean miners to view their stats, transaction reports, blocks, and more from the MoneroOcean REST API! Includes the ability to change threshold and theme.",
     "Go to Dashboard",
@@ -34,9 +34,9 @@ const routes: Routes = [
 
   //ElliptiKeys
   {path: "projects/elliptikeys", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/elliptikeys-full.webp",
     "ElliptiKeys",
-    "Implemented using Angular and the Blockchain.com Data API, ElliptiKeys is a sequential database containing every single Bitcoin private/public key in existance, created for the purpose of educating the general public about the security of the Bitcoin network and 256-bit ECC. Yes, your private key is on here somewhere. No, no one will ever find it.",
+    "Implemented using Angular and the Blockchain.com Data API, ElliptiKeys is a sequential database containing every single Bitcoin private/public key in existance, created for the purpose of educating the general public about the security of the Bitcoin network and 256-bit ECC.<br><br> Yes, your private key is on here somewhere. No, no one will ever find it.",
     "Go to Site",
     "https://elliptikeys.github.io/",
     ""
@@ -44,10 +44,10 @@ const routes: Routes = [
 
   //HG Pizza
   {path: "projects/hella-good-pizza-site", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/hgpizza-full.webp",
     "Hella Good Pizza Site",
     "A test pizza restaurant website that demonstrates the four main C-R-U-D operations in a relational database, as well as user roles, permissions, and authentication. Written using .NET Core MVC with Entity Framework Core to handle database interactions. "
-    +"Developed in collaboration with <a href='https://github.com/overflow-gitch'  class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a> Developed as the final project for Fall 2021 Web Programming III course.",
+    +"Developed in collaboration with <a href='https://github.com/overflow-gitch'  class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> as the final project for Fall 2021 Web Programming III course.",
     "GitHub Repository",
     "https://github.com/ICARUS-2/Web3Project",
     ""
@@ -55,7 +55,7 @@ const routes: Routes = [
   
   //Large Hashron Collider
   {path: "projects/large-hashron-collider", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/large-hashron-collider-full.webp",
     "Large Hashron Collider",
     "Try your luck at searching for coins amongst the possible 2^256 Bitcoin keys! Based off of <a href='https://github.com/Kimbatt/btc-address-generator' class='unstyledLink'>Kimbatt's btc-address-generator</a>",
     "Go to Site",
@@ -65,7 +65,7 @@ const routes: Routes = [
 
   //Bitcoin Clock
   {path: "projects/bitcoin-clock", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/bitcoin-clock-full.webp",
     "Bitcoin Clock",
     "A clock that displays the time estimation of Bitcoin's block reward halving. Other data such as blocks until halvening, blockchain height, current/future block rewards, and price are also shown. Made with <a href='https://brandonlwhite.github.io/sevenSeg.js/' class='unstyledLink'>SevenSeg.js</a>",
     "Go to Site",
@@ -75,7 +75,7 @@ const routes: Routes = [
 
   //COVID Simulator
   {path: "projects/covid-simulator", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/covid-simulator-full.webp",
     "COVID-19 Simulator",
     "An adjustable simulator meant to show how COVID-19 and other viruses spread among a population."
     +" Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Created as the final project for Winter 2020 User Interfaces course.",
@@ -86,7 +86,7 @@ const routes: Routes = [
 
   //TNNF BudgetViewer
   {path: "projects/tnnf-budgetviewer", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/tnnfbudget-full.webp",
     "TNNF BudgetViewer",
     "A WPF financial planning app that lets the user manage different categories and expenses. Allows the user to create as many budget plans as they want and import them."
     + " Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a>. Created as the final project for Winter 2021 Application Development I course.",
@@ -97,7 +97,7 @@ const routes: Routes = [
 
   //XvB_GUI
   {path: "projects/xvb-gui", component: ProjectInfoComponent, data: new ProjectInfoModel(
-      "../../../assets/img/home/view.webp",
+      "../../../assets/img/projects/xvb-gui-full.webp",
       "XvB_GUI",
       "A WPF dashboard application that retrieves pool and miner data on the XMRvsBEAST Monero Mining Pool. Allows the user to monitor payouts, boosts, and bonuses for up to three Monero addresses. For people who enjoy watching the markets, selectable exchange rates are displayed in-app."
       + "<br><br> Due to the pool's shutdown in favor of decentralized mining, this client has been deprecated and the source code has been archived. It can still be forked to use any pool's API.",
@@ -109,7 +109,7 @@ const routes: Routes = [
 
   //TNNFContainers
   {path: "projects/tnnfcontainers-iot-system", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/tnnfcontainers-full.webp",
     "TNNFContainers IoT System",
     "An IoT system designed to control and monitor Raspberry Pi container farms. There are two primary components: The Python scripts running on the Pi sending the telemetry to the Azure IoT Hub, "
     + "and the Xamarin Forms app that interacts with the IoT Hub. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> as the Winter 2022 graduation project."
@@ -122,7 +122,7 @@ const routes: Routes = [
 
   //WaveDodger
   {path: "projects/wavedodger", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/wavedodger-full.webp",
     "WaveDodger",
     "My first ever video game developed as the final project for Fall 2019 Programming I, written in C#. Dodge waves of enemies as they travel down the screen. Collect all of the coins in order to advance to the next level.<br><br> Also, don't die. No pressure.",
     "Download .zip (70MB)",
@@ -132,7 +132,7 @@ const routes: Routes = [
 
   //WaveDodger II
   {path: "projects/wavedodger2", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/wavedodger2-full.webp",
     "WaveDodger II",
     "The riveting sequel to the original! Featuring random enemy movement and a dual-mode level editor. <br><br>Also, don't die. Still no pressure.",
     "GitHub Repository",
@@ -143,7 +143,7 @@ const routes: Routes = [
 
   //SlimeDodger
   {path: "projects/slimedodger", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/slimedodger-full.webp",
     "WaveDodger III - SlimeDodger",
     "The third game in the WaveDodger series, implemented in Javascript. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> for the final project of Fall 2021 Game Programming course."
     +" Code library provided by <a href='https://github.com/VikramSinghMTL' class='unstyledLink'>VikramSinghMTL</a>",
@@ -155,7 +155,7 @@ const routes: Routes = [
 
   //Video Poker
   {path: "projects/video-poker", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/home/view.webp",
+    "../../../assets/img/projects/video-poker-full.webp",
     "Video Poker",
     "A fun little CLI gambling game that is sure to cause an addiction to the real thing. Please don't develop an addiction to the real thing.",
     "Download (803KB)",
