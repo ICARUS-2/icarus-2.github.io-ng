@@ -14,6 +14,7 @@ import { ContactPageComponent } from './contact/contact-page/contact-page.compon
 import { MainButtonComponent } from './shared/main-button/main-button.component';
 import { ZoomCardLinkComponent } from './shared/zoom-card-link/zoom-card-link.component';
 import { ProjectInfoComponent } from './projects/project-info/project-info.component';
+import { MainButtonHrefComponent } from './shared/main-button-href/main-button-href.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ProjectInfoComponent } from './projects/project-info/project-info.compo
     ContactPageComponent,
     MainButtonComponent,
     ZoomCardLinkComponent,
-    ProjectInfoComponent
+    ProjectInfoComponent,
+    MainButtonHrefComponent
   ],
   imports: [
     BrowserModule,

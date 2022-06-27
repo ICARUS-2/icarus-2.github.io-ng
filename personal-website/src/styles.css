@@ -43,6 +43,7 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;}
 .unstyledLink
 {
     background-color: transparent;
+    color: white;
 }
 
 .unstyledLink:visited
