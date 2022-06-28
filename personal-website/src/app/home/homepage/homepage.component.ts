@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Title } from '@angular/platform-browser';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-homepage',
@@ -9,7 +10,7 @@ import { Title } from '@angular/platform-browser';
 export class HomepageComponent implements OnInit {
 
   constructor(private titleService: Title) {
-    titleService.setTitle("Ethan Briffett - Software Developer")
+    titleService.setTitle("Ethan Briffett")
    }
 
   ngOnInit(): void {

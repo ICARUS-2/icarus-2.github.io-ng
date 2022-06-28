@@ -1,17 +1,18 @@
 import { ThisReceiver } from '@angular/compiler';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, Input, OnInit, OnDestroy } from '@angular/core';
 import { Title } from '@angular/platform-browser';
 import { ActivatedRoute } from '@angular/router';
 import TitleHelper from 'src/helpers/TitleHelper';
 import  ProjectInfoModel from 'src/models/ProjectInfoModel';
 import { LangChangeEvent, TranslateService } from '@ngx-translate/core';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-project-info',
   templateUrl: './project-info.component.html',
   styleUrls: ['./project-info.component.css']
 })
-export class ProjectInfoComponent implements OnInit {
+export class ProjectInfoComponent implements OnInit, OnDestroy {
 
   @Input() backgroundImageSource: string = "";
   @Input() header: string = "Header text";
@@ -21,12 +22,19 @@ export class ProjectInfoComponent implements OnInit {
   @Input() btnRouterLink: string = "";
   @Input() translationKey: string="";
 
+  routeDataSubscription: Subscription | null = null;
+  translationSubscription: Subscription | null = null;
+
   constructor(private route: ActivatedRoute, private titleService: Title,private translateService: TranslateService) {
 
    }
+  ngOnDestroy(): void {
+    this.routeDataSubscription?.unsubscribe();
+    this.translationSubscription?.unsubscribe();
+  }
 
   ngOnInit(): void {
-    this.route.data.subscribe(d =>
+    this.routeDataSubscription = this.route.data.subscribe(d =>
       {
         if (d["backgroundImageSource"])
         {
@@ -51,7 +59,7 @@ export class ProjectInfoComponent implements OnInit {
 
       this.updateTranslationsOnPage();
 
-      this.translateService.onLangChange.subscribe( (event: LangChangeEvent) =>
+      this.translationSubscription = this.translateService.onLangChange.subscribe( (event: LangChangeEvent) =>
       {
         this.updateTranslationsOnPage();
       } )
