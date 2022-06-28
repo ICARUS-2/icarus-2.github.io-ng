@@ -83,6 +83,30 @@
             "infoPageHeader": "Simulateur COVID-19",
             "infoPageDescription": "Un simulateur ajustable destiné à montrer comment le COVID-19 et d'autres virus se propagent au sein d'une population. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Créé en tant que projet final pour le cours d'interfaces utilisateur de l'hiver 2020.",
             "infoPageButtonText": "Aller à l'Application"
+        },
+
+        "tnnfBudgetViewer":
+        {
+            "projectsPageHeader": "TNNF BudgetViewer",
+            "infoPageHeader": "TNNF BudgetViewer",
+            "infoPageDescription": "Une application de planification financière WPF qui permet à l'utilisateur de gérer différentes catégories et dépenses. Permet à l'utilisateur de créer autant de plans budgétaires qu'il le souhaite et de les importer. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube</a>. Créé en tant que projet final pour le cours de développement d'applications I de l'hiver 2021.",
+            "infoPageButtonText": "Dépot GitHub"
+        },
+
+        "xvbGui":
+        {
+            "projectsPageHeader": "XvB_GUI",
+            "infoPageHeader": "XvB_GUI",
+            "infoPageDescription": "Une application de tableau de bord WPF qui récupère les données de pool et de mineur sur le pool de minage de Monero XMRvsBEAST. Permet à l'utilisateur de surveiller les paiements, les boosts et les bonus pour jusqu'à trois adresses Monero. Pour les personnes qui aiment regarder les marchés, des taux de change sélectionnables sont affichés dans l'application. <br><br> En raison de l'arrêt du pool au profit du minage décentralisé, ce client a été déprécié et le code source a été archivé. Il peut toujours être forké pour utiliser l'API de n'importe quel pool.",
+            "infoPageButtonText": "Dépot GitHub (Archivé)"
+        },
+
+        "tnnfContainers":
+        {
+            "projectsPageHeader": "Système IoT TNNFContainers",
+            "infoPageHeader": "Système IoT TNNFContainers",
+            "infoPageDescription": "Un système IoT conçu pour contrôler et surveiller les fermes de conteneurs Raspberry Pi. Il existe deux composants principaux : les scripts Python s'exécutant sur le Pi envoyant la télémétrie à Azure IoT Hub et l'application Xamarin Forms qui interagit avec IoT Hub. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> comme projet de fin d'études Hiver 2022. <br><br>Documentation disponible <a class='unstyledLink' href='https://docs.google.com/document/d/1-52Zz_e1vIv51Z64m4wdY4Z31YisfALbznkaYPgknVE/'>ici</a>",
+            "infoPageButtonText": "Télécharger .zip (42MB)"
         }
     }
 }

@@ -72,14 +72,10 @@ const routes: Routes = [
     ""
   )},
 
-  /*
   //TNNF BudgetViewer
   {path: "projects/tnnf-budgetviewer", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/tnnfbudget-full.webp",
-    "TNNF BudgetViewer",
-    "A WPF financial planning app that lets the user manage different categories and expenses. Allows the user to create as many budget plans as they want and import them."
-    + " Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a>. Created as the final project for Winter 2021 Application Development I course.",
-    "GitHub Repository",
+    "projects.tnnfBudgetViewer",
     "https://github.com/ICARUS-2/AppDevProject",
     ""
   )},
@@ -87,28 +83,21 @@ const routes: Routes = [
   //XvB_GUI
   {path: "projects/xvb-gui", component: ProjectInfoComponent, data: new ProjectInfoModel(
       "../../../assets/img/projects/xvb-gui-full.webp",
-      "XvB_GUI",
-      "A WPF dashboard application that retrieves pool and miner data on the XMRvsBEAST Monero Mining Pool. Allows the user to monitor payouts, boosts, and bonuses for up to three Monero addresses. For people who enjoy watching the markets, selectable exchange rates are displayed in-app."
-      + "<br><br> Due to the pool's shutdown in favor of decentralized mining, this client has been deprecated and the source code has been archived. It can still be forked to use any pool's API.",
-      "GitHub Repository (Archived)",
+      "projects.xvbGui",
       "https://github.com/ICARUS-2/XvB_GUI",
       ""
     )
   },
-
+  
   //TNNFContainers
   {path: "projects/tnnfcontainers-iot-system", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/tnnfcontainers-full.webp",
-    "TNNFContainers IoT System",
-    "An IoT system designed to control and monitor Raspberry Pi container farms. There are two primary components: The Python scripts running on the Pi sending the telemetry to the Azure IoT Hub, "
-    + "and the Xamarin Forms app that interacts with the IoT Hub. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> as the Winter 2022 graduation project."
-    +"<br><br>Documentation available <a class='unstyledLink' href='https://docs.google.com/document/d/1-52Zz_e1vIv51Z64m4wdY4Z31YisfALbznkaYPgknVE/'>here</a>",
-    "Download .zip (42MB)",
+    "projects.tnnfContainers",
     "/assets/downloads/course-project-tnnf-main.zip",
     ""
     )
   },
-
+  /*
   //WaveDodger
   {path: "projects/wavedodger", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/wavedodger-full.webp",
