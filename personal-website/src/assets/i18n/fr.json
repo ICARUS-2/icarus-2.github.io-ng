@@ -107,6 +107,38 @@
             "infoPageHeader": "Système IoT TNNFContainers",
             "infoPageDescription": "Un système IoT conçu pour contrôler et surveiller les fermes de conteneurs Raspberry Pi. Il existe deux composants principaux : les scripts Python s'exécutant sur le Pi envoyant la télémétrie à Azure IoT Hub et l'application Xamarin Forms qui interagit avec IoT Hub. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> comme projet de fin d'études Hiver 2022. <br><br>Documentation disponible <a class='unstyledLink' href='https://docs.google.com/document/d/1-52Zz_e1vIv51Z64m4wdY4Z31YisfALbznkaYPgknVE/'>ici</a>",
             "infoPageButtonText": "Télécharger .zip (42MB)"
+        },
+
+        "waveDodger":
+        {
+            "projectsPageHeader": "WaveDodger",
+            "infoPageHeader": "WaveDodger",
+            "infoPageDescription": "Mon tout premier jeu vidéo développé en tant que projet final pour Fall 2019 Programming I, écrit en C#. Esquivez les vagues d'ennemis alors qu'ils parcourent l'écran. Récupérez toutes les pièces pour passer au niveau suivant. <br><br> Ne mourez pas non plus. Pas de pression.",
+            "infoPageButtonText": "Télécharger .zip (70MB)"
+        },
+
+        "waveDodger2":
+        {
+            "projectsPageHeader": "WaveDodger II",
+            "infoPageHeader": "WaveDodger II",
+            "infoPageDescription": "La suite captivante de l'original ! Avec un mouvement ennemi aléatoire et un éditeur de niveau à double mode. <br><br>Aussi, ne meurs pas. Toujours pas de pression.",
+            "infoPageButtonText": "GitHub Repository"
+        },
+
+        "slimeDodger":
+        {
+            "projectsPageHeader": "WaveDodger III - SlimeDodger",
+            "infoPageHeader": "WaveDodger III - SlimeDodger",
+            "infoPageDescription": "Le troisième jeu de la série WaveDodger, implémenté en Javascript. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> pour le projet final du cours de programmation de jeux de l'automne 2021. Bibliothèque de codes fournie par <a href='https://github.com/VikramSinghMTL' class='unstyledLink'>VikramSinghMTL</a>",
+            "infoPageButtonText": "Jouer"
+        },
+
+        "videoPoker":
+        {
+            "projectsPageHeader": "Poker Vidéo",
+            "infoPageHeader": "Poker Vidéo",
+            "infoPageDescription": "Un petit jeu de hasard CLI amusant qui ne manquera pas de provoquer une dépendance à la vraie chose. S'il vous plaît, ne développez pas une dépendance à la vraie chose.",
+            "infoPageButtonText": "Télécharger (803KB)"
         }
     }
 }

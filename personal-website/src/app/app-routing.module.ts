@@ -97,52 +97,41 @@ const routes: Routes = [
     ""
     )
   },
-  /*
+  
   //WaveDodger
   {path: "projects/wavedodger", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/wavedodger-full.webp",
-    "WaveDodger",
-    "My first ever video game developed as the final project for Fall 2019 Programming I, written in C#. Dodge waves of enemies as they travel down the screen. Collect all of the coins in order to advance to the next level.<br><br> Also, don't die. No pressure.",
-    "Download .zip (70MB)",
+    "projects.waveDodger",
     "/assets/downloads/WaveDodger-1.12.zip",
     ""
   )},
-
+    
   //WaveDodger II
   {path: "projects/wavedodger2", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/wavedodger2-full.webp",
-    "WaveDodger II",
-    "The riveting sequel to the original! Featuring random enemy movement and a dual-mode level editor. <br><br>Also, don't die. Still no pressure.",
-    "GitHub Repository",
+    "projects.waveDodger2",
     "https://github.com/ICARUS-2/wavedodger2",
     ""
   )
   },
-
+  
   //SlimeDodger
   {path: "projects/slimedodger", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/slimedodger-full.webp",
-    "WaveDodger III - SlimeDodger",
-    "The third game in the WaveDodger series, implemented in Javascript. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> for the final project of Fall 2021 Game Programming course."
-    +" Code library provided by <a href='https://github.com/VikramSinghMTL' class='unstyledLink'>VikramSinghMTL</a>",
-    "Play Game",
+    "projects.slimeDodger",
     "/games/SlimeDodger/",
     ""
   )
   },
-
+  
   //Video Poker
   {path: "projects/video-poker", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/video-poker-full.webp",
-    "Video Poker",
-    "A fun little CLI gambling game that is sure to cause an addiction to the real thing. Please don't develop an addiction to the real thing.",
-    "Download (803KB)",
+    "projects.videoPoker",
     "/assets/downloads/VideoPoker.zip",
     ""
   )
   },
-
-  */
 
   //redirect old site
   {path: 'en', redirectTo: ""},

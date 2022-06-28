@@ -107,6 +107,38 @@
             "infoPageHeader": "TNNFContainers IoT System",
             "infoPageDescription": "An IoT system designed to control and monitor Raspberry Pi container farms. There are two primary components: The Python scripts running on the Pi sending the telemetry to the Azure IoT Hub, and the Xamarin Forms app that interacts with the IoT Hub. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> as the Winter 2022 graduation project. <br><br>Documentation available <a class='unstyledLink' href='https://docs.google.com/document/d/1-52Zz_e1vIv51Z64m4wdY4Z31YisfALbznkaYPgknVE/'>here</a>",
             "infoPageButtonText": "Download .zip (42MB)"
+        },
+
+        "waveDodger":
+        {
+            "projectsPageHeader": "WaveDodger",
+            "infoPageHeader": "WaveDodger",
+            "infoPageDescription": "My first ever video game developed as the final project for Fall 2019 Programming I, written in C#. Dodge waves of enemies as they travel down the screen. Collect all of the coins in order to advance to the next level.<br><br> Also, don't die. No pressure.",
+            "infoPageButtonText": "Download .zip (70MB)"
+        },
+
+        "waveDodger2":
+        {
+            "projectsPageHeader": "WaveDodger II",
+            "infoPageHeader": "WaveDodger II",
+            "infoPageDescription": "The riveting sequel to the original! Featuring random enemy movement and a dual-mode level editor. <br><br>Also, don't die. Still no pressure.",
+            "infoPageButtonText": "GitHub Repository"
+        },
+
+        "slimeDodger":
+        {
+            "projectsPageHeader": "WaveDodger III - SlimeDodger",
+            "infoPageHeader": "WaveDodger III - SlimeDodger",
+            "infoPageDescription": "The third game in the WaveDodger series, implemented in Javascript. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> for the final project of Fall 2021 Game Programming course. Code library provided by <a href='https://github.com/VikramSinghMTL' class='unstyledLink'>VikramSinghMTL</a>",
+            "infoPageButtonText": "Play Game"
+        },
+
+        "videoPoker":
+        {
+            "projectsPageHeader": "Video Poker",
+            "infoPageHeader": "Video Poker",
+            "infoPageDescription": "A fun little CLI gambling game that is sure to cause an addiction to the real thing. Please don't develop an addiction to the real thing.",
+            "infoPageButtonText": "Download (803KB)"
         }
     }
 }
