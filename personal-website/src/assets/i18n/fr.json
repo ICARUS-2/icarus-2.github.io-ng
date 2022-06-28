@@ -14,5 +14,75 @@
         "seeMyProjectsButton": "Voir mes projets!",
         "workWithMeButton": "Travaille avec moi?",
         "technologiesDescription": "Tout au long du développement de mes projets, je me suis familiarisé avec les technologies suivantes :"
+    },
+
+    "projects": 
+    {
+        "bannerText": "Mes Projets",
+        "mainHeader": "Voici quelques-uns des projets sur lesquels j'ai travaillé! Cliquez sur un projet pour afficher ses détails.",
+        "sitesHeader": "Sites et Applications Web",
+        "appsHeader": "Applications",
+        "videoGamesHeader": "Jeux Vidéo",
+
+        "template":
+        {
+            "projectsPageHeader": "",
+            "infoPageHeader": "",
+            "infoPageDescription": "",
+            "infoPageButtonText": ""
+        },
+
+        "moneroOceanCustomUi": 
+        {
+            "projectsPageHeader" : "IU Alternative MoneroOcean",
+            "infoPageDescription": "Une interface utilisateur de tableau de bord personnalisable qui permet aux mineurs de MoneroOcean d'afficher leurs statistiques, leurs rapports de transaction, leurs blocs et bien plus encore à partir de l'API REST de MoneroOcean! Inclut la possibilité de changer de seuil et de thème.",
+            "infoPageHeader" : "IU Alternative MoneroOcean",
+            "infoPageButtonText": "Aller à l'Application"
+        },
+
+        "elliptiKeys":
+        {
+            "projectsPageHeader": "ElliptiKeys",
+            "infoPageHeader": "ElliptiKeys",
+            "infoPageDescription": "Mis en œuvre à l'aide d'Angular et de l'API de données Blockchain.com, ElliptiKeys est une base de données séquentielle contenant chaque clé privée/publique Bitcoin existante, créée dans le but d'éduquer le grand public sur la sécurité du réseau Bitcoin et de l'ECC 256 bits. br><br> Oui, votre clé privée est ici quelque part. Non, personne ne le trouvera jamais.",
+            "infoPageButtonText": "Aller au Site"
+        },
+
+        "hellaGoodPizza":
+        {
+            "projectsPageHeader": "Site <<Hella Good Pizza>>",
+            "infoPageHeader": "Site <<Hella Good Pizza>>",
+            "infoPageDescription": "Un site Web de pizzeria de test qui illustre les quatre principales opérations C-R-U-D dans une base de données relationnelle, ainsi que les rôles d'utilisateur, les autorisations et l'authentification. Écrit en utilisant .NET Core MVC avec Entity Framework Core pour gérer les interactions de base de données. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> comme projet final pour le cours de programmation Web III de l'automne 2021.",
+            "infoPageButtonText": "Dépot Github"
+        },
+        
+        "meadeWillisSite":
+        {
+            "projectsPageHeader": "Projet de Stage: Site Meade Willis"
+        },
+
+        "largeHashronCollider":
+        {
+            "projectsPageHeader": "<<Large Hashron Collider>>",
+            "infoPageHeader": "<<Large Hashron Collider>>",
+            "infoPageDescription": "Tentez votre chance en cherchant des pièces parmi les 2^256 clés Bitcoin possibles ! Basé sur <a href='https://github.com/Kimbatt/btc-address-generator' class='unstyledLink'>btc-address-generator de Kimbatt</a>",
+            "infoPageButtonText": "Aller à l'Application"
+        },
+
+        "bitcoinClock":
+        {
+            "projectsPageHeader": "Horloge Bitcoin",
+            "infoPageHeader": "Horloge Bitcoin",
+            "infoPageDescription": "Une horloge qui montre le temps jusqu'au 'halving' de Bitcoin. D'autres données telles que les blocs jusqu'àu 'halving', la hauteur de la blockchain, les récompenses de bloc actuelles/futures et le prix sont également affichées. fait avec <a href='https://brandonlwhite.github.io/sevenSeg.js/' class='unstyledLink'>SevenSeg.js</a>.",
+            "infoPageButtonText": "Aller à l'Application"
+        },
+
+        "covidSimulator":
+        {
+            "projectsPageHeader": "Simulateur COVID-19",
+            "infoPageHeader": "Simulateur COVID-19",
+            "infoPageDescription": "Un simulateur ajustable destiné à montrer comment le COVID-19 et d'autres virus se propagent au sein d'une population. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Créé en tant que projet final pour le cours d'interfaces utilisateur de l'hiver 2020.",
+            "infoPageButtonText": "Aller à l'Application"
+        }
     }
 }

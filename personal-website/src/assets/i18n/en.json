@@ -5,7 +5,8 @@
         "projectsLink": "Projects"
     },
 
-    "home": {
+    "home": 
+    {
         "bannerText": "Ethan Briffett - Software Developer",
         "aboutMeHeader":  "About <span class='colorBlue'>Me</span>",
         "aboutMeDescription": "Who am I? I am a computer enthusiast and software developer who will soon be pursuing a Bachelor's of Computer Science at Concordia University.",
@@ -13,5 +14,75 @@
         "seeMyProjectsButton": "See my projects!",
         "workWithMeButton": "Work with me?",
         "technologiesDescription": "Throughout the development of my projects, I have become familiar with the following technologies:"
+    },
+
+    "projects": 
+    {
+        "bannerText": "My Projects",
+        "mainHeader": "Here are some of the projects I've worked on! Click on a project to view its details.",
+        "sitesHeader": "Sites & Web Apps",
+        "appsHeader": "Apps",
+        "videoGamesHeader": "Video Games",
+
+        "template":
+        {
+            "projectsPageHeader": "",
+            "infoPageHeader": "",
+            "infoPageDescription": "",
+            "infoPageButtonText": ""
+        },
+
+        "moneroOceanCustomUi": 
+        {
+            "projectsPageHeader" : "MoneroOcean Custom UI",
+            "infoPageHeader" : "MoneroOcean Custom UI",
+            "infoPageDescription": "A customizable dashboard UI that allows MoneroOcean miners to view their stats, transaction reports, blocks, and more from the MoneroOcean REST API! Includes the ability to change threshold and theme.",
+            "infoPageButtonText": "Go to Dashboard"
+        },
+
+        "elliptiKeys":
+        {
+            "projectsPageHeader": "ElliptiKeys",
+            "infoPageHeader": "ElliptiKeys",
+            "infoPageDescription": "Implemented using Angular and the Blockchain.com Data API, ElliptiKeys is a sequential database containing every single Bitcoin private/public key in existance, created for the purpose of educating the general public about the security of the Bitcoin network and 256-bit ECC.<br><br> Yes, your private key is on here somewhere. No, no one will ever find it.",
+            "infoPageButtonText": "Go to Site"
+        },
+
+        "hellaGoodPizza":
+        {
+            "projectsPageHeader": "Hella Good Pizza Site",
+            "infoPageHeader": "Hella Good Pizza Site",
+            "infoPageDescription": "A test pizza restaurant website that demonstrates the four main C-R-U-D operations in a relational database, as well as user roles, permissions, and authentication. Written using .NET Core MVC with Entity Framework Core to handle database interactions. Developed in collaboration with <a href='https://github.com/overflow-gitch'  class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> as the final project for Fall 2021 Web Programming III course.",
+            "infoPageButtonText": "GitHub Repository"
+        },
+
+        "meadeWillisSite":
+        {
+            "projectsPageHeader": "Intern Project - Meade Willis Site"
+        },
+
+        "largeHashronCollider":
+        {
+            "projectsPageHeader": "Large Hashron Collider",
+            "infoPageHeader": "Large Hashron Collider",
+            "infoPageDescription": "Try your luck at searching for coins amongst the possible 2^256 Bitcoin keys! Based off of <a href='https://github.com/Kimbatt/btc-address-generator' class='unstyledLink'>Kimbatt's btc-address-generator</a>",
+            "infoPageButtonText":"Go to Site"
+        },
+
+        "bitcoinClock":
+        {
+            "projectsPageHeader": "Bitcoin Clock",
+            "infoPageHeader": "Bitcoin Clock",
+            "infoPageDescription": "A clock that displays the time estimation of Bitcoin's block reward halving. Other data such as blocks until halvening, blockchain height, current/future block rewards, and price are also shown. Made with <a href='https://brandonlwhite.github.io/sevenSeg.js/' class='unstyledLink'>SevenSeg.js</a>.",
+            "infoPageButtonText": "Go to Site"
+        },
+
+        "covidSimulator":
+        {
+            "projectsPageHeader": "COVID-19 Simulator",
+            "infoPageHeader": "COVID-19 Simulator",
+            "infoPageDescription": "An adjustable simulator meant to show how COVID-19 and other viruses spread among a population. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Created as the final project for Winter 2020 User Interfaces course.",
+            "infoPageButtonText": "Go to Site"
+        }
     }
 }

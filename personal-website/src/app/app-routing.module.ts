@@ -25,30 +25,25 @@ const routes: Routes = [
   //MoneroOcean Custom UI
   {path: "projects/moneroocean-custom-ui", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/moneroocean-customui-full.webp", //Background image
-    "MoneroOcean Custom UI",                                //
-    "A customizable dashboard UI that allows MoneroOcean miners to view their stats, transaction reports, blocks, and more from the MoneroOcean REST API! Includes the ability to change threshold and theme.",
-    "Go to Dashboard",
+    "projects.moneroOceanCustomUi",
     "/apps/mo-alt/login/",
     ""
   )},
 
+  
   //ElliptiKeys
   {path: "projects/elliptikeys", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/elliptikeys-full.webp",
-    "ElliptiKeys",
-    "Implemented using Angular and the Blockchain.com Data API, ElliptiKeys is a sequential database containing every single Bitcoin private/public key in existance, created for the purpose of educating the general public about the security of the Bitcoin network and 256-bit ECC.<br><br> Yes, your private key is on here somewhere. No, no one will ever find it.",
-    "Go to Site",
+    "projects.elliptiKeys",
     "https://elliptikeys.github.io/",
     ""
   )},
 
+  
   //HG Pizza
   {path: "projects/hella-good-pizza-site", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/hgpizza-full.webp",
-    "Hella Good Pizza Site",
-    "A test pizza restaurant website that demonstrates the four main C-R-U-D operations in a relational database, as well as user roles, permissions, and authentication. Written using .NET Core MVC with Entity Framework Core to handle database interactions. "
-    +"Developed in collaboration with <a href='https://github.com/overflow-gitch'  class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a> as the final project for Fall 2021 Web Programming III course.",
-    "GitHub Repository",
+    "projects.hellaGoodPizza",
     "https://github.com/ICARUS-2/Web3Project",
     ""
   )},
@@ -56,9 +51,7 @@ const routes: Routes = [
   //Large Hashron Collider
   {path: "projects/large-hashron-collider", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/large-hashron-collider-full.webp",
-    "Large Hashron Collider",
-    "Try your luck at searching for coins amongst the possible 2^256 Bitcoin keys! Based off of <a href='https://github.com/Kimbatt/btc-address-generator' class='unstyledLink'>Kimbatt's btc-address-generator</a>",
-    "Go to Site",
+    "projects.largeHashronCollider",
     "/apps/large-hashron-collider/",
     ""
   )},
@@ -66,9 +59,7 @@ const routes: Routes = [
   //Bitcoin Clock
   {path: "projects/bitcoin-clock", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/bitcoin-clock-full.webp",
-    "Bitcoin Clock",
-    "A clock that displays the time estimation of Bitcoin's block reward halving. Other data such as blocks until halvening, blockchain height, current/future block rewards, and price are also shown. Made with <a href='https://brandonlwhite.github.io/sevenSeg.js/' class='unstyledLink'>SevenSeg.js</a>",
-    "Go to Site",
+    "projects.bitcoinClock",
     "/apps/bitcoin-clock/",
     ""
   )},
@@ -76,14 +67,12 @@ const routes: Routes = [
   //COVID Simulator
   {path: "projects/covid-simulator", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/covid-simulator-full.webp",
-    "COVID-19 Simulator",
-    "An adjustable simulator meant to show how COVID-19 and other viruses spread among a population."
-    +" Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Created as the final project for Winter 2020 User Interfaces course.",
-    "Go to Site",
+    "projects.covidSimulator",
     "/apps/covid-simulator/",
     ""
   )},
 
+  /*
   //TNNF BudgetViewer
   {path: "projects/tnnf-budgetviewer", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/tnnfbudget-full.webp",
@@ -163,6 +152,8 @@ const routes: Routes = [
     ""
   )
   },
+
+  */
 
   //redirect old site
   {path: 'en', redirectTo: ""},
