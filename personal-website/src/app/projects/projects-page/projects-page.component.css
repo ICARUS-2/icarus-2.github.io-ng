@@ -1,0 +1,15 @@
+@media screen and (max-width: 1200px)
+{
+    .projectsSection
+    {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .projectsContainer
+    {
+        width: 100% !important;
+    }
+}
