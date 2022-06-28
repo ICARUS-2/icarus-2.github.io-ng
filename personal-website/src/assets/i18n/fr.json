@@ -81,7 +81,7 @@
         {
             "projectsPageHeader": "Simulateur COVID-19",
             "infoPageHeader": "Simulateur COVID-19",
-            "infoPageDescription": "Un simulateur ajustable destiné à montrer comment le COVID-19 et d'autres virus se propagent au sein d'une population. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Créé en tant que projet final pour le cours d'interfaces utilisateur de l'hiver 2020.",
+            "infoPageDescription": "Un simulateur ajustable destiné à montrer comment le COVID-19 et d'autres virus se propagent au sein d'une population. Développé en collaboration avec <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> et <a href='https://github.com/philaube' class='unstyledLink'>philaube</a>. Créé en tant que projet final pour le cours d'interfaces utilisateur de l'hiver 2020.",
             "infoPageButtonText": "Aller à l'Application"
         },
 
@@ -139,6 +139,18 @@
             "infoPageHeader": "Poker Vidéo",
             "infoPageDescription": "Un petit jeu de hasard CLI amusant qui ne manquera pas de provoquer une dépendance à la vraie chose. S'il vous plaît, ne développez pas une dépendance à la vraie chose.",
             "infoPageButtonText": "Télécharger (803KB)"
+        }
+    },
+    
+    "contact":
+    {
+        "bannerText": "Contact",
+        "form":
+        {
+            "fullNamePlaceholder": "Nom*",
+            "emailAddressPlaceholder": "Addresse courriel*",
+            "messagePlaceholder": "Composer un message",
+            "submitButtonText": "Envoyer"
         }
     }
 }

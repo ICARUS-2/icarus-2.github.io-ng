@@ -81,7 +81,7 @@
         {
             "projectsPageHeader": "COVID-19 Simulator",
             "infoPageHeader": "COVID-19 Simulator",
-            "infoPageDescription": "An adjustable simulator meant to show how COVID-19 and other viruses spread among a population. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube.</a>. Created as the final project for Winter 2020 User Interfaces course.",
+            "infoPageDescription": "An adjustable simulator meant to show how COVID-19 and other viruses spread among a population. Developed in collaboration with <a href='https://github.com/overflow-gitch' class='unstyledLink'>overflow-gitch</a> and <a href='https://github.com/philaube' class='unstyledLink'>philaube</a>. Created as the final project for Winter 2020 User Interfaces course.",
             "infoPageButtonText": "Go to Site"
         },
 
@@ -139,6 +139,18 @@
             "infoPageHeader": "Video Poker",
             "infoPageDescription": "A fun little CLI gambling game that is sure to cause an addiction to the real thing. Please don't develop an addiction to the real thing.",
             "infoPageButtonText": "Download (803KB)"
+        }
+    },
+
+    "contact":
+    {
+        "bannerText": "Contact",
+        "form":
+        {
+            "fullNamePlaceholder": "Full name*",
+            "emailAddressPlaceholder": "E-mail address*",
+            "messagePlaceholder": "Enter a message",
+            "submitButtonText": "Submit"
         }
     }
 }
