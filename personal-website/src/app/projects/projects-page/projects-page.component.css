@@ -6,14 +6,23 @@
         flex-direction: column !important;
         justify-content: center !important;
         align-items: center !important;
+        flex-direction: column;
     }
 
     .projectsContainer
     {
-        width: 100% !important;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center !important;
+        align-items: center !important;
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 500px)
+{
+    .projectsSection
+    {
+        padding-right: 1.7%;
     }
 }
