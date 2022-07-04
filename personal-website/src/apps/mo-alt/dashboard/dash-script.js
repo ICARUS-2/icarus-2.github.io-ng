@@ -199,6 +199,10 @@ const MONERO_ADDR_LENGTH = 95;
 const MONERO_INTEGR_ADDR_LENGTH = 106;
 document.addEventListener("DOMContentLoaded", PreparePage)
 
+//Top API status
+let topApiStatusDisplay;
+let topApiStatusBlinkerDisplay;
+
 //Top status
 let topStatusDisplay;
 let statusBlinkerDisplay;
@@ -446,6 +450,10 @@ function SetEventListeners()
 
 function GetDisplays()
 {
+    //Top API status
+    topApiStatusDisplay = document.getElementsByClassName("dashboardApiStatusDisplay")[0]
+    topApiStatusBlinkerDisplay = document.getElementsByClassName("apiStatusBlinkerDisplay")[0]
+
     //Top status
     topStatusDisplay = document.getElementsByClassName("dashboardStatusDisplay")[0];
     statusBlinkerDisplay = document.getElementsByClassName("statusBlinkerDisplay")[0];
@@ -556,23 +564,35 @@ function UpdateStatusBar(allWorkers)
     //return prematurely in the event of an error occuring
     if (!allWorkers)
     {
-        topStatusDisplay.innerHTML = "ERROR";
+        //Set the API connection status
+        topApiStatusDisplay.innerHTML = "NETWORK ERROR"
+        topApiStatusDisplay.style.color = "red"
+        topApiStatusBlinkerDisplay.style.display = "none"
+
+        //Set the miner status to unknown if API cannot be reached
+        topStatusDisplay.innerHTML = "UNKNOWN";
         topStatusDisplay.style.color = "red";
         statusBlinkerDisplay.style.display = "none"
         return;
     }
-    statusBlinkerDisplay.style.display = "block"
+
+    topApiStatusDisplay.style.color = "lightgreen"
+    topApiStatusDisplay.innerHTML = "CONNECTION OK"
+    topApiStatusBlinkerDisplay.style.display = "block"
+
     let workerCount = Object.keys(allWorkers).length - 1;
 
     if (workerCount < 1)
     {
         topStatusDisplay.style.color = "yellow"
         topStatusDisplay.innerHTML = "NOT MINING";
+        statusBlinkerDisplay.style.display = "none"
     }
     else
     {
         topStatusDisplay.style.color = "lightgreen";
         topStatusDisplay.innerHTML = "MINERS ONLINE";
+        statusBlinkerDisplay.style.display = "block"
     }
 }
 
@@ -811,6 +831,11 @@ function InitiateBlinker()
             statusBlinkerDisplay.innerHTML = "";
         else
             statusBlinkerDisplay.innerHTML = char;
+
+        if (topApiStatusBlinkerDisplay.innerHTML == char)
+            topApiStatusBlinkerDisplay.innerHTML = "";
+        else
+            topApiStatusBlinkerDisplay.innerHTML = char;
 
     }, interval )
 }
