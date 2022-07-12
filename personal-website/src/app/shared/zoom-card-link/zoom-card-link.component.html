@@ -1,6 +1,6 @@
 <div style="display: flex; justify-content: center; width: 100%; margin: 5px;">
 
-    <div *ngIf="href != ''" class="shadow zoomOuter" style="background-color: rgb(40,40,40); width: 450px; height: 310px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <div *ngIf="href != ''" class="shadow zoomOuter" style="background-color: rgb(40,40,40); width: 475px; height: 340px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <a [href]="href">
             <div class="zoom" [style]='"background-image: url("+imgSrc+");"' style="background-repeat: no-repeat; background-size: contain; width: 400px; height: 225px;">
                 
@@ -10,7 +10,7 @@
         <h2 class="colorBlue thinHeader mt-2" style="background-color: transparent;">{{text}}</h2>
     </div>
 
-    <div *ngIf="routerLink != ''" class="shadow zoomOuter" style="background-color: rgb(40,40,40); width: 450px; height: 310px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
+    <div *ngIf="routerLink != ''" class="shadow zoomOuter" style="background-color: rgb(40,40,40); width: 475px; height: 340px; display: flex; justify-content: center; align-items: center; flex-direction: column;">
         <a [routerLink]="routerLink">
             <div class="zoom" [style]='"background-image: url("+imgSrc+");"' style="background-repeat: no-repeat; background-size: contain; width: 400px; height: 225px;">
                 
