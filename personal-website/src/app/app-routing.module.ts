@@ -72,6 +72,14 @@ const routes: Routes = [
     ""
   )},
 
+  //Employee Management System
+  {path: "projects/employee-management-system", component: ProjectInfoComponent, data: new ProjectInfoModel(
+    "../../../assets/img/projects/employee-management-system-full.webp",
+    "projects.employeeManagementSystem",
+    "https://github.com/ICARUS-2/MeanStackTestEmployeeManager",
+    ""
+  )},
+
   //TNNF BudgetViewer
   {path: "projects/tnnf-budgetviewer", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/tnnfbudget-full.webp",
