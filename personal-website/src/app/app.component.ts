@@ -12,7 +12,8 @@ import LocalStorageHelper from './../helpers/LocalStorageHelper';
 export class AppComponent implements OnInit{
   title = 'personal-website';
 
-  constructor(private router: Router, public translate: TranslateService) {
+  constructor(private router: Router, public translate: TranslateService) 
+  {
       translate.addLangs(['en', 'fr']);
 
       if (LocalStorageHelper.getLang())
@@ -27,17 +28,9 @@ export class AppComponent implements OnInit{
       }
    }
 
-  ngOnInit() {
+  ngOnInit() 
+  {
 
-    //scrollPositionRestoration is buggy, this does it automatically
-    this.router.events.subscribe((evt) => {
-        if (!(evt instanceof NavigationEnd)) {
-            return;
-        }
-        let navbar = document.querySelector("#navbar")
-
-        navbar?.scrollIntoView();
-    });
-}
+  }
 
 }
