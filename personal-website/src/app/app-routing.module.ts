@@ -47,14 +47,6 @@ const routes: Routes = [
     "https://github.com/ICARUS-2/Web3Project",
     ""
   )},
-  
-  //Large Hashron Collider
-  {path: "projects/large-hashron-collider", component: ProjectInfoComponent, data: new ProjectInfoModel(
-    "../../../assets/img/projects/large-hashron-collider-full.webp",
-    "projects.largeHashronCollider",
-    "/apps/large-hashron-collider/",
-    ""
-  )},
 
   //Bitcoin Clock
   {path: "projects/bitcoin-clock", component: ProjectInfoComponent, data: new ProjectInfoModel(
