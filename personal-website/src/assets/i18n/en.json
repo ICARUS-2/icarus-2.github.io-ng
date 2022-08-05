@@ -44,7 +44,7 @@
         {
             "projectsPageHeader": "ElliptiKeys",
             "infoPageHeader": "ElliptiKeys",
-            "infoPageDescription": "Implemented using Angular and the Blockchain.com Data API, ElliptiKeys is a sequential database containing every single Bitcoin private/public key in existance, created for the purpose of educating the general public about the security of the Bitcoin network and 256-bit ECC.<br><br> Yes, your private key is on here somewhere. No, no one will ever find it.",
+            "infoPageDescription": "Implemented using Angular and the Blockchain.com Data API, ElliptiKeys is a sequential database containing every single Bitcoin private/public key in existance, created for the purpose of educating the general public about the security of the Bitcoin network and 256-bit ECC. <br><br>Now with built-in block explorer, wallet generator, automation, and more! <br><br> Yes, your private key is on here somewhere. No, no one will ever find it.",
             "infoPageButtonText": "Go to Site"
         },
 
@@ -59,14 +59,6 @@
         "meadeWillisSite":
         {
             "projectsPageHeader": "Intern Project - Meade Willis Site"
-        },
-
-        "largeHashronCollider":
-        {
-            "projectsPageHeader": "Large Hashron Collider",
-            "infoPageHeader": "Large Hashron Collider",
-            "infoPageDescription": "Try your luck at searching for coins amongst the possible 2^256 Bitcoin keys! Based off of <a href='https://github.com/Kimbatt/btc-address-generator' class='unstyledLink'>Kimbatt's btc-address-generator</a>",
-            "infoPageButtonText":"Go to Site"
         },
 
         "bitcoinClock":
@@ -164,6 +156,8 @@
             "emailAddressPlaceholder": "E-mail address*",
             "messagePlaceholder": "Enter a message",
             "submitButtonText": "Submit"
-        }
+        },
+
+        "linkedIn": "Connect with me on LinkedIn!"
     }
 }

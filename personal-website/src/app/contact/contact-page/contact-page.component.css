@@ -19,6 +19,17 @@ textarea.formItem
     height: 300px;
 }
 
+#linkedIn
+{
+  text-decoration: none;
+}
+
+#linkedIn:hover
+{
+  color: lightgray
+}
+
+
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #052432 ;
     opacity: 1; /* Firefox */
