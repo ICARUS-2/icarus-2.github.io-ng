@@ -35,7 +35,7 @@
         "moneroOceanCustomUi": 
         {
             "projectsPageHeader" : "IU MoneroOcean",
-            "infoPageDescription": "Une interface utilisateur de tableau de bord personnalisable qui permet aux mineurs de MoneroOcean d'afficher leurs statistiques, leurs rapports de transaction, leurs blocs et bien plus encore à partir de l'API REST de MoneroOcean! Inclut la possibilité de changer de seuil et de thème.",
+            "infoPageDescription": "Une interface utilisateur de tableau de bord personnalisable qui permet aux mineurs de MoneroOcean d'afficher leurs statistiques, leurs rapports de transaction, leurs blocs et bien plus encore à partir de l'API REST de MoneroOcean! Inclut la possibilité de changer de seuil et de thème.<br><br>Version 2 est sortie maintenant, reconstruit entièrement avec React.js!",
             "infoPageHeader" : "IU MoneroOcean",
             "infoPageButtonText": "Aller à l'Application"
         },
@@ -44,7 +44,7 @@
         {
             "projectsPageHeader": "ElliptiKeys",
             "infoPageHeader": "ElliptiKeys",
-            "infoPageDescription": "Mis en œuvre à l'aide d'Angular et de l'API de données Blockchain.com, ElliptiKeys est une base de données séquentielle contenant chaque clé privée/publique Bitcoin existante, créée dans le but d'éduquer le grand public sur la sécurité du réseau Bitcoin et de l'ECC 256 bits. br><br> Oui, votre clé privée est ici quelque part. Non, personne ne le trouvera jamais.",
+            "infoPageDescription": "Mis en œuvre à l'aide d'Angular et de l'API de données Blockchain.com, ElliptiKeys est une base de données séquentielle contenant chaque clé privée/publique Bitcoin existante, créée dans le but d'éduquer le grand public sur la sécurité du réseau Bitcoin et de l'ECC 256 bits. <br><br> Maintenant avec un explorateur de blockchain, un générateur de portefeuille, automatisation, et plus! <br><br> Oui, votre clé privée est ici quelque part. Non, personne ne le trouvera jamais.",
             "infoPageButtonText": "Aller au Site"
         },
 
@@ -59,14 +59,6 @@
         "meadeWillisSite":
         {
             "projectsPageHeader": "Projet de Stage: Site Meade Willis"
-        },
-
-        "largeHashronCollider":
-        {
-            "projectsPageHeader": "<<Large Hashron Collider>>",
-            "infoPageHeader": "<<Large Hashron Collider>>",
-            "infoPageDescription": "Tentez votre chance en cherchant des pièces parmi les 2^256 clés Bitcoin possibles ! Basé sur <a href='https://github.com/Kimbatt/btc-address-generator' class='unstyledLink'>btc-address-generator de Kimbatt</a>",
-            "infoPageButtonText": "Aller à l'Application"
         },
 
         "bitcoinClock":
@@ -164,6 +156,8 @@
             "emailAddressPlaceholder": "Addresse courriel*",
             "messagePlaceholder": "Composer un message",
             "submitButtonText": "Envoyer"
-        }
+        },
+
+        "linkedIn": "Connectez avec moi sur LinkedIn!"
     }
 }

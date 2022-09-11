@@ -26,7 +26,7 @@ const routes: Routes = [
   {path: "projects/moneroocean-custom-ui", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/moneroocean-customui-full.webp", //Background image
     "projects.moneroOceanCustomUi",
-    "/apps/mo-alt/login/",
+    "https://icarus-2.github.io/monero-ocean",
     ""
   )},
 
