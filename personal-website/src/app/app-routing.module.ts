@@ -72,6 +72,14 @@ const routes: Routes = [
     ""
   )},
 
+  //Matte Storefront
+  {path: "projects/matte-storefront", component: ProjectInfoComponent, data: new ProjectInfoModel(
+    "../../../assets/img/projects/mattestorefront-full.webp",
+    "projects.matteStorefront",
+    "/assets/downloads/MatteWebApplication.zip",
+    ""
+  )},
+
   //TNNF BudgetViewer
   {path: "projects/tnnf-budgetviewer", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/tnnfbudget-full.webp",
