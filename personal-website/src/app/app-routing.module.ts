@@ -80,6 +80,14 @@ const routes: Routes = [
     ""
   )},
 
+  //MYVC App
+  {path: "projects/myvc-app", component: ProjectInfoComponent, data: new ProjectInfoModel(
+    "../../../assets/img/projects/myvc-app-full.webp",
+    "projects.myvcApp",
+    "https://github.com/ICARUS-2/COMP353-Projects/tree/main/MainProject/MYVCApp",
+    ""
+  )},
+
   //TNNF BudgetViewer
   {path: "projects/tnnf-budgetviewer", component: ProjectInfoComponent, data: new ProjectInfoModel(
     "../../../assets/img/projects/tnnfbudget-full.webp",
